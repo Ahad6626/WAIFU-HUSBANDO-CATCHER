@@ -3,9 +3,9 @@ class Config(object):
 
     # Get this value from my.telegram.org/apps
     OWNER_ID = "8195241636"
-    sudo_users = "8195241636", "8195241636"
+    sudo_users = "8195241636", "7694170809"
     GROUP_ID = -1002847095020
-    TOKEN = "8319779558:AAEgds2ieL21JU-4J0nZhOJAz2_RfLi65nY"
+    TOKEN = "8267678007:AAE5G5WTjqaVnFWzd2u38Rdv2-PK8GrS9o4"
     mongo_url = "mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan"
     PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
     SUPPORT_CHAT = "IvanxNisha"
