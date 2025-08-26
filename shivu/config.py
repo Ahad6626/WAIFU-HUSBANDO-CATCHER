@@ -11,7 +11,7 @@ class Config(object):
     SUPPORT_CHAT = "IvanxNisha"
     UPDATE_CHAT = "BotsxUpdate"
     BOT_USERNAME = "PreetixMusic_bot"
-    CHARA_CHANNEL_ID = "-1003084236794"
+    CHARA_CHANNEL_ID = "-1002946229785"
     api_id = 22657083
     api_hash = "d6186691704bd901bdab275ceaab88f3"
 
