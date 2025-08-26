@@ -34,9 +34,9 @@ async def start(update: Update, context: CallbackContext) -> None:
         
         
         caption = f"""
-        ***Heyyyy...***
+        ***Hey cuties...***
 
-***I am An Open Source Character Catcher Bot...​Add Me in Your group.. And I will send Random Characters After.. every 100 messages in Group... Use /guess to.. Collect that Characters in Your Collection.. and see Collection by using /Harem... So add in Your groups and Collect Your harem***
+*I ᴀᴍ Aɴ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Cʜᴀʀᴀᴄᴛᴇʀ Cᴀᴛᴄʜᴇʀ Bᴏᴛ...​Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ ɢʀᴏᴜᴘ.. Aɴᴅ I ᴡɪʟʟ sᴇɴᴅ Rᴀɴᴅᴏᴍ Cʜᴀʀᴀᴄᴛᴇʀs Aғᴛᴇʀ.. ᴇᴠᴇʀʏ 𝟷𝟶𝟶 ᴍᴇssᴀɢᴇs ɪɴ Gʀᴏᴜᴘ... Usᴇ /ɢᴜᴇss ᴛᴏ.. Cᴏʟʟᴇᴄᴛ ᴛʜᴀᴛ Cʜᴀʀᴀᴄᴛᴇʀs ɪɴ Yᴏᴜʀ Cᴏʟʟᴇᴄᴛɪᴏɴ.. ᴀɴᴅ sᴇᴇ Cᴏʟʟᴇᴄᴛɪᴏɴ ʙʏ ᴜsɪɴɢ /Hᴀʀᴇᴍ... Sᴏ ᴀᴅᴅ ɪɴ Yᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ Cᴏʟʟᴇᴄᴛ Yᴏᴜʀ ʜᴀʀᴇᴍ*
         """
         
         keyboard = [
@@ -44,7 +44,7 @@ async def start(update: Update, context: CallbackContext) -> None:
             [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
             [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/MyNameIsShekhar/WAIFU-HUSBANDO-CATCHER')]
+            
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(PHOTO_URL)
@@ -90,9 +90,9 @@ async def button(update: Update, context: CallbackContext) -> None:
     elif query.data == 'back':
 
         caption = f"""
-        ***Hoyyyy...*** ✨
+        ***Hey...*** ✨
 
-***I am An Open Source Character Catcher Bot..​Add Me in Your group.. And I will send Random Characters After.. every 100 messages in Group... Use /guess to.. Collect that Characters in Your Collection.. and see Collection by using /Harem... So add in Your groups and Collect Your harem***
+*I ᴀᴍ Aɴ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Cʜᴀʀᴀᴄᴛᴇʀ Cᴀᴛᴄʜᴇʀ Bᴏᴛ...​Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ ɢʀᴏᴜᴘ.. Aɴᴅ I ᴡɪʟʟ sᴇɴᴅ Rᴀɴᴅᴏᴍ Cʜᴀʀᴀᴄᴛᴇʀs Aғᴛᴇʀ.. ᴇᴠᴇʀʏ 𝟷𝟶𝟶 ᴍᴇssᴀɢᴇs ɪɴ Gʀᴏᴜᴘ... Usᴇ /ɢᴜᴇss ᴛᴏ.. Cᴏʟʟᴇᴄᴛ ᴛʜᴀᴛ Cʜᴀʀᴀᴄᴛᴇʀs ɪɴ Yᴏᴜʀ Cᴏʟʟᴇᴄᴛɪᴏɴ.. ᴀɴᴅ sᴇᴇ Cᴏʟʟᴇᴄᴛɪᴏɴ ʙʏ ᴜsɪɴɢ /Hᴀʀᴇᴍ... Sᴏ ᴀᴅᴅ ɪɴ Yᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ Cᴏʟʟᴇᴄᴛ Yᴏᴜʀ ʜᴀʀᴇᴍ*
         """
 
         
