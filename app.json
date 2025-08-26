@@ -46,11 +46,11 @@
     },
     "API_ID": {
       "description": "Telegram API ID from https://my.telegram.org",
-      "value": ""
+      "value": "22657083"
     },
     "API_HASH": {
       "description": "Telegram API Hash from https://my.telegram.org",
-      "value": ""
+      "value": "d6186691704bd901bdab275ceaab88f3"
     }
   },
   "buildpacks": [
