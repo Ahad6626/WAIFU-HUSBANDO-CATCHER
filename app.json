@@ -1,0 +1,61 @@
+{
+  "name": "Ivan Waifu Bot",
+  "description": "A Telegram Waifu Bot with music and character features.",
+  "repository": "https://github.com/Ahad6626/WAIFU-HUSBANDO-CATCHER",
+  "keywords": ["telegram", "bot", "music", "pyrogram"],
+  "env": {
+    "OWNER_ID": {
+      "description": "Telegram user ID of the bot owner",
+      "value": "8195241636"
+    },
+    "SUDO_USERS": {
+      "description": "Telegram user IDs of sudo users (comma-separated)",
+      "value": "8195241636,8195241636"
+    },
+    "GROUP_ID": {
+      "description": "Main group ID where bot will operate",
+      "value": "-1002847095020"
+    },
+    "TOKEN": {
+      "description": "Bot token from @BotFather",
+      "value": ""
+    },
+    "MONGO_URL": {
+      "description": "MongoDB connection string",
+      "value": ""
+    },
+    "PHOTO_URL": {
+      "description": "List of photo URLs for bot images",
+      "value": "https://telegra.ph/file/b925c3985f0f325e62e17.jpg,https://telegra.ph/file/4211fb191383d895dab9d.jpg"
+    },
+    "SUPPORT_CHAT": {
+      "description": "Telegram username of support group",
+      "value": "IvanxNisha"
+    },
+    "UPDATE_CHAT": {
+      "description": "Telegram username of updates channel",
+      "value": "BotsxUpdate"
+    },
+    "BOT_USERNAME": {
+      "description": "Telegram bot username",
+      "value": "PreetixMusic_bot"
+    },
+    "CHARA_CHANNEL_ID": {
+      "description": "Channel ID for character posts",
+      "value": "-1002133191051"
+    },
+    "API_ID": {
+      "description": "Telegram API ID from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash from https://my.telegram.org",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
